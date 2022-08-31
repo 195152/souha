@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1>Encoder les données de la pièce</h1>
+    
+    <form method="POST" action="/user/calcul">
+        <p>
+            <label for="name">Pièce :</label>
+            <input type="text" name="name" />
+        </p>
+        <p>
+            <label for="length">Largeur :</label>
+            <input type="number" name="length"  />
+        </p>
+        <p>
+            <label for="width">Longeur :</label>
+            <input type="number"  name="width"/>
+        </p>
+        <input type="submit" name="button" value="Enregister"/><br/>
+        
+    
+    
+        
+        
+        <input type="submit" name="button1" value="Calculer la surface"/><br/><%= message %>
+    </form>
+    
+</body>
+</html>
